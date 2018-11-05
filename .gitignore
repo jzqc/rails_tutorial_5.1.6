@@ -21,3 +21,7 @@
 /yarn-error.log
 
 .byebug_history
+
+# My ignores
+.DS_Store
+**.DS_Store
