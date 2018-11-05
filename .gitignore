@@ -25,3 +25,4 @@
 # My ignores
 .DS_Store
 **.DS_Store
+/config/secrets.yml
