@@ -36,5 +36,7 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     follow_redirect!
     assert_template "users/show"
     assert_not flash.empty?
+    assert logged_in? # No need to define a separate is_logged_in? method in test_helper.rb
+                      # We can just include SessionsHelper
   end
 end
