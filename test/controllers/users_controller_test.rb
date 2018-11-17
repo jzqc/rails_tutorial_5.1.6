@@ -1,4 +1,4 @@
-require 'test_helper'
+require "test_helper"
 
 class UsersControllerTest < ActionDispatch::IntegrationTest
   test "should get new" do
@@ -6,5 +6,4 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select "title", "Sign Up | Microblog"
   end
-
 end
